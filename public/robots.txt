@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: {{ url('/sitemap.xml') }}
+
+# Allow crawling of important pages
+Allow: /properties
+Allow: /services
+Allow: /stores
+Allow: /classified
+Allow: /about-us
+Allow: /contact
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /tests/
+Disallow: /database/
+Disallow: /config/
+Disallow: /resources/
+Disallow: /routes/
+Disallow: /app/
+Disallow: /bootstrap/
+Disallow: /cache/
+Disallow: /logs/
+
+# Allow images and assets
+Allow: /assets/
+Allow: /uploads/
+Allow: /public/
+
+# Crawl delay (optional)
+Crawl-delay: 1
