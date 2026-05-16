@@ -19,7 +19,7 @@ Qui sommes nous
         <div class="col-lg-6">
             <div class="about-left">
                 <div class="about-img">
-                    <img src="{{ asset('assets/img/logo/magic.png')}}" alt="Côte Magique">
+                    <img src="{{ asset('assets/img/logo/iaf.png')}}" alt="IAF - Agence Immobilière Agrebi Frères">
                 </div>
             </div>
         </div>
@@ -29,29 +29,24 @@ Qui sommes nous
                     <span class="site-title-tagline">Qui sommes nous</span>
                 </div>
                 <div class="about-agency-section mt-4">
-                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">Côte Magique</h4>
-                    <p style="font-size: 1.1rem; font-weight: 600; color: #2c3e50; margin-bottom: 1rem;">Qualité et Élégance — Donnez une touche de magie à votre maison</p>
+                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">Agence Immobilière Agrebi Frères - IAF</h4>
                     <p class="about-text">
-                    Décoration et Accessoires à Mssaken, Sousse. Nous vous proposons une sélection soignée de produits de décoration pour sublimer votre intérieur avec style et élégance.
+                    Agence Immobilière Agrebi Frères -IAF- est une agence spécialisée dans l'intermédiation immobilière, facilitant et gérant les opérations de vente, d'achat et de location de terrains agricoles de tout type. Grâce à son expertise et à sa parfaite connaissance du marché, IAF vous accompagne et vous conseille à chaque étape de votre projet.
                     </p>
                     <div class="why-choose-us" style="margin-top: 1.5rem;">
-                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Pourquoi choisir Côte Magique :</h5>
+                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Pourquoi choisir IAF :</h5>
                         <ul style="list-style: none; padding-left: 0;">
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Produits de qualité soigneusement sélectionnés
+                                Compétence : une expertise dédiée au secteur immobilier
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Style et élégance pour chaque espace
+                                Confiance : un accompagnement sérieux et professionnel
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Service personnalisé à l'écoute de vos besoins
-                            </li>
-                            <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
-                                <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Livraison disponible à Mssaken, Sousse
+                                Transparence : des démarches claires et un suivi en toute honnêteté
                             </li>
                         </ul>
                     </div>

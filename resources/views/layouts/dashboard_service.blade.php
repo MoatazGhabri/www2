@@ -6,14 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Agence AL-Wided Immo - Administration Dashboard Services - Gestion des services immobiliers à Tunis">
-    <meta name="keywords" content="Agence AL-Wided Immo, administration, services immobiliers, Tunis, gestion services">
-    <meta name="author" content="Agence AL-Wided Immo">
+    <meta name="description" content="IAF - Administration Dashboard Services - Gestion des services immobiliers">
+    <meta name="keywords" content="IAF, Agrebi Frères, administration, services immobiliers, Sfax, gestion services">
+    <meta name="author" content="IAF - Agence Immobilière Agrebi Frères">
     <meta name="robots" content="noindex, nofollow">
     {{-- @csrf --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-            <title>Agence AL-Wided Immo - @yield('pageTitle')</title>
+            <title>IAF - @yield('pageTitle')</title>
 
     <!-- favicon -->
             <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/pro.png') }}">

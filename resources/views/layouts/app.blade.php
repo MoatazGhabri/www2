@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Côte Magique - Agence Immobilière</title>
+    <title>IAF - Agence Immobilière Agrebi Frères</title>
    
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
@@ -20,50 +20,50 @@
     {
         "@context": "https://schema.org",
         "@type": "RealEstateAgent",
-                "name": "Côte Magique",
-        "description": "Côte Magique, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.",
-        "url": "https://www.cotemagic.tn",
-            "logo": "{{ asset('assets/img/logo/magic.png') }}",
-            "image": "{{ asset('assets/img/logo/magic.png') }}",
+                "name": "IAF - Agence Immobilière Agrebi Frères",
+        "description": "Agence spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie.",
+        "url": "https://www.iaf-immo.tn",
+            "logo": "{{ asset('assets/img/logo/iaf.png') }}",
+            "image": "{{ asset('assets/img/logo/iaf.png') }}",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Tunisie",
-            "addressLocality": "Tunis",
+            "streetAddress": "Sfax",
+            "addressLocality": "Sfax",
             "postalCode": "",
-            "addressRegion": "Tunis",
+            "addressRegion": "Sfax",
             "addressCountry": "TN"
         },
         "contactPoint": {
             "@type": "ContactPoint",
-                "telephone": "+216-52996359",
+                "telephone": "+216-94303262",
             "contactType": "customer service",
             "availableLanguage": ["French", "Arabic"]
         },
         "sameAs": [
-            "https://www.facebook.com/share/1A9niMzoJb/"
+            "https://www.facebook.com/share/1CVwX3rUev/"
         ],
         "areaServed": {
             "@type": "Country",
-                "name":  "Tunis"
+                "name":  "Tunisie"
             },
-        "serviceType": "Immobilier - Vente, Location, Achat, Gestion",
+        "serviceType": "Immobilier agricole - Vente, Location, Achat de terrains agricoles",
         "priceRange": "$$"
     }
     </script>
 
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Côte Magique, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers. Contactez-nous au (+216) 52 996 359">
-    <meta property="og:url" content="https://www.cotemagic.tn">
-    <meta property="og:image" content="{{ asset('assets/img/logo/magic.png') }}">
+    <meta property="og:description" content="IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles en Tunisie. Contactez-nous au (+216) 94 303 262">
+    <meta property="og:url" content="https://www.iaf-immo.tn">
+    <meta property="og:image" content="{{ asset('assets/img/logo/iaf.png') }}">
     
-            <meta name="description" content="Côte Magique, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.">
-        <meta name="keywords" content="agence immobilière, Côte Magique, vente immobilier, location immobilier, achat immobilier, Tunisie immobilier, terrains, fond de commerce, appartements">
-    <meta name="contact" content="(+216) 52 996 359 / (+216) 27 475 385">
-    <meta name="email" content="contact@cotemagic.tn">
-    <meta name="address" content="Tunisie">
+            <meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles en Tunisie.">
+        <meta name="keywords" content="agence immobilière Sfax, IAF, Agrebi Frères, terrains agricoles, vente terrain agricole, location terrain agricole, immobilier agricole Tunisie">
+    <meta name="contact" content="(+216) 94 303 262">
+    <meta name="email" content="kamel.twitc@gmail.com">
+    <meta name="address" content="Sfax, Tunisie">
     
     <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/magic.png') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

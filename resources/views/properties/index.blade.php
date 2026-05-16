@@ -6,7 +6,7 @@
     <style>
         .product-favorite,
         .product-status {
-            color: #ebb359;
+            color: #759f17;
             font-size: 12px;
         }
 
@@ -105,7 +105,7 @@
 }
 
 .site-title-tagline {
-    color: #ebb359;
+    color: #759f17;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
@@ -133,7 +133,7 @@
 .site-title {
     font-size: 3.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #ebb359 0%, #ebb359 50%, #ebb359 100%);
+    background: linear-gradient(135deg, #759f17 0%, #759f17 50%, #759f17 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -151,7 +151,7 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #ebb359, #ebb359);
+    background: linear-gradient(90deg, #759f17, #759f17);
     border-radius: 2px;
 }
 
@@ -169,7 +169,7 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    background: linear-gradient(135deg, #ebb359 0%, #ebb359 50%, #ebb359 100%);
+    background: linear-gradient(135deg, #759f17 0%, #759f17 50%, #759f17 100%);
     color: white;
     padding: 10px 28px;
     border-radius: 50px;
@@ -320,7 +320,7 @@
                         <div class="service-icon mb-3">
                             <img src="{{ asset('uploads/serviceWeb/'.$item->imageUrl) }}" alt="{{ $item->title }}">
                         </div>
-                        <h4 class="mt-2 mb-2" style="font-weight: 700; color: #ebb359;">{{ ucfirst($item->title) }}</h4>
+                        <h4 class="mt-2 mb-2" style="font-weight: 700; color: #759f17;">{{ ucfirst($item->title) }}</h4>
                         <p class="mb-3" style="color: #6b7280; min-height: 60px;">{{ $item->description }}</p>
                         <a href="{{$item->lien}}" class="modern-view-all-btn">
                             En savoir plus <i class="fas fa-arrow-right ms-2"></i>

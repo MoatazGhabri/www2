@@ -6,17 +6,14 @@
                     <div class="footer-column">
                         <div class="footer-logo-box">
                             <a href="#" class="footer-logo">
-                                        <img src="{{ asset('assets/img/logo/magic.png') }}" alt="Côte Magique Logo">
+                                        <img src="{{ asset('assets/img/logo/iaf.png') }}" alt="IAF - Agence Immobilière Agrebi Frères">
                             </a>
                             <p class="footer-about">
-                            Qualité et Élégance — Donnez une touche de magie à votre maison. Décoration et Accessoires à Mssaken, Sousse.
+                            Agence Immobilière Agrebi Frères - IAF. Spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie.
                             </p>
-                            <!-- <div class="footer-social-icons">
-                                <a href="https://www.facebook.com/share/1JS8q44967/" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/immobiliere_tn/?igsh=MXVxZmZlOXc0M2Vlbw%3D%3D" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/immobiliere-tn?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://www.youtube.com/@immobiliere_tn?si=_CPOdtaTKnxYA0vC" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                            </div> -->
+                            <div class="footer-social-icons">
+                                <a href="https://www.facebook.com/share/1CVwX3rUev/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
                         </div>
                     </div>
 
@@ -47,11 +44,10 @@
                     <div class="footer-column">
                         <h4 class="footer-title">Contactez-nous <i class="fas fa-address-book"></i></h4>
                         <ul class="footer-contact-info">
-                            <li><a href="tel:+21652996359"><i class="fas fa-phone"></i> +216 52 996 359</a></li>
-                            <li><a href="https://wa.me/21652996359" target="_blank"><i class="fab fa-whatsapp"></i> +216 52 996 359</a></li>
-                            <li><a href="tel:+21627475385"><i class="fas fa-phone"></i> +216 27 475 385</a></li>
-                            <li><i class="fas fa-map-marker-alt"></i> Mssaken, Sousse</li>
-                            <li><a href="mailto:contact@cotemagic.tn"><i class="fas fa-envelope-open-text"></i> contact@cotemagic.tn</a></li>
+                            <li><a href="tel:+21694303262"><i class="fas fa-phone"></i> +216 94 303 262</a></li>
+                            <li><a href="https://wa.me/21694303262" target="_blank"><i class="fab fa-whatsapp"></i> +216 94 303 262</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i> Sfax</li>
+                            <li><a href="mailto:kamel.twitc@gmail.com"><i class="fas fa-envelope-open-text"></i> kamel.twitc@gmail.com</a></li>
                         </ul>                   
                     </div>
                 </div>
@@ -87,8 +83,8 @@
         overflow: hidden;
     }
     :root {
-        --color-main: #ebb359;
-        --color-accent: #ebb359;
+        --color-main: #759f17;
+        --color-accent: #759f17;
     }
     .modern-footer::before {
         content: '';

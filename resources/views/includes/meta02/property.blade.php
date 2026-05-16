@@ -1,7 +1,14 @@
-<meta name="description" content="Agence Accord Immobilier: Achat, Vente, Location et Gestion Locative de tout type de bien immobilier à Sousse. Notre équipe d'experts passionnés est là pour vous guider à chaque étape de votre projet immobilier.">
-<meta name="keywords" content="agence immobilière Sousse, Accord Immobilier, vente immobilier Sousse, location immobilier Sousse, achat immobilier Sousse, Tunisie immobilier, terrains, fond de commerce, appartements">
+<title>{{ $title }} - Immobilier en Tunisie | IAF</title>
 
+<meta name="description" content="Découvrez {{ $title }} avec IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles. Consultez nos annonces avec photos, prix et localisation.">
 
-<meta property="og:url" content="https://deal-immobilier.tn/properties" />
-    <title>Agence Accord Immobilier - Location-Vente</title>
+<meta name="keywords" content="{{ $title }} Tunisie, immobilier {{ $title }} Tunisie, {{ $title }} à vendre Tunisie, {{ $title }} à louer Tunisie, terrain agricole {{ $title }} Tunisie, agence immobilière Sfax, IAF {{ $title }}">
 
+<link href="{{ Request::url() }}" rel="canonical" />
+
+<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères">
+<meta property="og:title" content="{{ $title }} - IAF">
+<meta property="og:description" content="Découvrez {{ $title }} avec IAF. Vente, achat et location de terrains agricoles avec photos, prix et localisation détaillés.">
+<meta property="og:url" content="{{ Request::url() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ isset($property[0]->filename) ? $property[0]->filename : url('assets/img/logo/iaf.png') }}">

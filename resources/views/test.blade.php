@@ -10,7 +10,7 @@
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>Agence Deal Immobilier - Agence Immobilière à Sousse</title>
+    <title>IAF - Agence Immobilière Agrebi Frères</title>
 
     <!-- favicon -->
             <link rel="icon" type="image/x-icon" href="assets/img/logo/deal.png">

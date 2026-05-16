@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Côte Magique - Agence immobilière en Tunisie. Chez nous, chaque projet immobilier est avant tout une histoire humaine.">
+    <meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Spécialisée en vente, achat et location de terrains agricoles en Tunisie.">
 
 
-    <meta name="keywords" content="Côte Magique, agence immobilière Tunisie, vente immobilier, location immobilier, achat immobilier, terrains, fond de commerce, appartements">
-<link href="https://www.cotemagic.tn" rel="canonical" />    
-<meta property="og:url" content="https://www.cotemagic.tn" />
-    <title>Côte Magique - Agence Immobilière</title>
+    <meta name="keywords" content="IAF, Agrebi Frères, agence immobilière Sfax, terrains agricoles, vente terrain agricole, location terrain agricole, immobilier agricole Tunisie">
+<link href="https://www.iaf-immo.tn" rel="canonical" />    
+<meta property="og:url" content="https://www.iaf-immo.tn" />
+    <title>IAF - Agence Immobilière Agrebi Frères</title>
 
 
 
-<meta property="og:title" content="Côte Magique - Votre partenaire Immobilier de confiance" />
+<meta property="og:title" content="IAF - Votre partenaire immobilier agricole de confiance" />
 
-    <meta property="og:description" content="Chez nous, chaque projet immobilier est avant tout une histoire humaine. Contactez-nous au (+216) 52 996 359">
+    <meta property="og:description" content="Vente, achat et location de terrains agricoles en Tunisie. Contactez-nous au (+216) 94 303 262">
    
-<meta property="og:site_name" content="Côte Magique" />
+<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères" />
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ asset('assets/img/logo/magic.png') }}">
+<meta property="og:image" content="{{ asset('assets/img/logo/iaf.png') }}">
  <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/magic.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -60,8 +60,8 @@
 </head>
 <style>
     :root {
-        --color-main:  #ebb359;
-        --color-accent: #ebb359;
+        --color-main:  #759f17;
+        --color-accent: #759f17;
     }
     .outline-view-all-btn {
     display: block;

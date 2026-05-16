@@ -1,15 +1,15 @@
-﻿@extends('layouts.app')
+@extends('layouts.app')
 
 @section('pageTitle')
-    Connexion - Côte Magique
+    Connexion - IAF
 @endsection
 
 @section('content')
     <div class="modern-login-container">
         <div class="login-illustration">
             <div class="illustration-overlay">
-                <img src="{{ asset('assets/img/logo/magic.png') }}" alt="Côte Magique Logo" class="login-logo">
-                <h2>Bienvenue chez Côte Magique</h2>
+                <img src="{{ asset('assets/img/logo/iaf.png') }}" alt="IAF - Agence Immobilière Agrebi Frères" class="login-logo">
+                <h2>Bienvenue chez IAF</h2>
                 <p>Connectez-vous pour accéder à votre espace personnel</p>
             </div>
         </div>

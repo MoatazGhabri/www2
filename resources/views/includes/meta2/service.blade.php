@@ -1,11 +1,14 @@
-<meta name="description" content="Agence Deal Immobilier: Achat, Vente, Location et Gestion Locative de tout type de bien immobilier à Sousse. Notre équipe d'experts passionnés est là pour vous guider à chaque étape de votre projet immobilier.">
+<title>IAF - Annonces Services Divers</title>
 
-<meta name="keywords" content="agence immobilière Sousse, Deal Immobilier, vente immobilier Sousse, location immobilier Sousse, achat immobilier Sousse, Tunisie immobilier, terrains, fond de commerce, appartements">
 
-<title>Agence Deal Immobilier - Annonces Services Divers</title>
+<meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Annonces, ventes diverses et services en Tunisie. Promouvoir votre société et entreprise. Cherche professionnel.">
 
-<meta property="og:site_name" content="Agence Deal Immobilier">
+<meta name="keywords" content="cherche professionnel Tunisie, cherche entreprise Tunisie, cherche services Tunisie, annuaire des services Tunisie, annuaire des entreprises Tunisie, annonces professionnels Tunisie, IAF, Agrebi Frères">
 
-<meta property="og:url" content="https://deal-immobilier.tn/services/">
 
-<meta property="og:title" content="Agence Deal Immobilier | Promouvoir votre service">
+<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères">
+<meta property="og:url" content="https://www.iaf-immo.tn">
+
+<meta property="og:title" content="IAF | Annonces Services Divers">
+
+<meta property="og:image" content="{{asset('assets/img/logo/iaf.png')}}">

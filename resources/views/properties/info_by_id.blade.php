@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('meta')
     <!-- Enhanced Meta tags for SEO -->
-        <meta name="description" content="Côte Magique, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.">
-            <meta name="keywords" content="immobilier Ariana, agence immobilière Ariana, achat appartement Ariana, vente maison Ariana, location appartement Ariana, terrain à vendre Ariana, agence immobilière Tunisie, Côte Magique, immobilier Tunisie">
-        <meta name="author" content="Côte Magique">
-    <meta name="contact" content="+216-52996359">
-    <meta name="email" content="contact@cotemagic.tn">
+        <meta name="description" content="IAF, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.">
+            <meta name="keywords" content="immobilier Sfax, agence immobilière Sfax, terrains agricoles, vente terrain agricole, location terrain agricole, IAF, Agrebi Frères, immobilier agricole Tunisie">
+        <meta name="author" content="IAF">
+    <meta name="contact" content="+216-94303262">
+    <meta name="email" content="contact@iaf-immo.tn">
     <meta name="address" content="70 Rue Ibn Khaldoun, Riadh Andalous, Ariana">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
@@ -14,21 +14,21 @@
     <link rel="canonical" href="{{ url()->current() }}">
     
     <!-- Enhanced Open Graph meta tags -->
-    <meta property="og:url" content="https://cotemagic.tn">
-    <meta property="og:title" content="Côte Magique - Votre partenaire immobilier de confiance en Tunisie">
+    <meta property="og:url" content="https://iaf-immo.tn">
+    <meta property="og:title" content="IAF - Votre partenaire immobilier de confiance en Tunisie">
     <meta property="og:description" content="Découvrez notre sélection de biens immobiliers à Ariana et ses environs : Appartements, villas, maisons, terrains, bureaux et locaux commerciaux.">
-    <meta property="og:image" content="{{ asset('assets/img/logo/magic.png') }}">
-    <meta property="og:image:alt" content="{{ $property->title ?? 'Côte Magique' }}">
+    <meta property="og:image" content="{{ asset('assets/img/logo/iaf.png') }}">
+    <meta property="og:image:alt" content="{{ $property->title ?? 'IAF' }}">
     <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Côte Magique">
+        <meta property="og:site_name" content="IAF">
     <meta property="og:locale" content="fr_FR">
     
     <!-- Twitter Card meta tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Côte Magique - Votre partenaire immobilier de confiance">
+    <meta name="twitter:title" content="IAF - Votre partenaire immobilier de confiance">
     <meta name="twitter:description" content="Découvrez notre sélection de biens immobiliers à Ariana et ses environs : Appartements, villas, maisons, terrains, bureaux et locaux commerciaux.">
-    <meta name="twitter:image" content="{{ asset('assets/img/logo/magic.png') }}">
-        <meta name="twitter:image:alt" content="{{ $property->title ?? 'Côte Magique' }}">
+    <meta name="twitter:image" content="{{ asset('assets/img/logo/iaf.png') }}">
+        <meta name="twitter:image:alt" content="{{ $property->title ?? 'IAF' }}">
     
     <!-- Additional SEO meta tags -->
     <meta name="geo.region" content="TN-12">
@@ -37,7 +37,7 @@
     <meta name="ICBM" content="36.8625, 10.1956">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/magic.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
     
     <!-- JSON-LD Structured Data for Property -->
     <script type="application/ld+json">
@@ -45,7 +45,7 @@
         "@context": "https://schema.org",
         "@type": "RealEstateListing",
         "name": "{{ $property->title ?? 'Propriété immobilière' }}",
-        "description": "{{ $property->description ?? 'Découvrez ce bien immobilier exceptionnel à Ariana avec Côte Magique.' }}",
+        "description": "{{ $property->description ?? 'Découvrez ce bien immobilier exceptionnel en Tunisie avec IAF.' }}",
         "url": "{{ url()->current() }}",
         "image": [
             @if($property && $property->pictures && $property->pictures->count() > 0)
@@ -53,7 +53,7 @@
                     "{{ asset('uploads/property_photo/' . $picture->alt) }}"{{ $index < min(4, $property->pictures->count() - 1) ? ',' : '' }}
                 @endforeach
             @else
-                "{{ asset('assets/img/logo/magic.png') }}"
+                "{{ asset('assets/img/logo/iaf.png') }}"
             @endif
         ],
         "offers": {
@@ -83,19 +83,19 @@
         "numberOfRooms": "{{ $property->rooms ?? 'Non spécifié' }}",
         "provider": {
             "@type": "RealEstateAgent",
-            "name": "Côte Magique",
-            "url": "https://cotemagic.tn",
-                "logo": "{{ asset('assets/img/logo/magic.png') }}",
+            "name": "IAF",
+            "url": "https://iaf-immo.tn",
+                "logo": "{{ asset('assets/img/logo/iaf.png') }}",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "70 Rue Ibn Khaldoun, Riadh Andalous",
                 "addressLocality": "Ariana",
                 "addressCountry": "TN",
-                "telephone": "+216-52996359"
+                "telephone": "+216-94303262"
             },
             "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+216-52996359",
+                "telephone": "+216-94303262",
                 "contactType": "customer service",
                 "availableLanguage": ["French", "Arabic"]
             }
@@ -145,7 +145,7 @@
 
     <style>
         :root {
-            --color: #ebb359;
+            --color: #759f17;
         }
     .section-title-centered,
     .section-title,
@@ -1255,7 +1255,7 @@
                                 @endphp
                                 <div class="thumbnail {{ $index === 0 ? 'active' : '' }}" onclick="setActiveImage({{ $index }})" style="position: relative; cursor: pointer;">
                                     <img src="{{ $thumbSrc }}" 
-                                         alt="{{ $property->title }} - {{ $property->type ?? 'Bien immobilier' }} à {{ $property->city ?? 'Tunis' }} - Image {{ $index + 1 }} - Agence Immobilière Maison Plus Elite"
+                                         alt="{{ $property->title }} - {{ $property->type ?? 'Bien immobilier' }} à {{ $property->city ?? 'Tunis' }} - Image {{ $index + 1 }} - IAF - Agence Immobilière Agrebi Frères"
                                          loading="lazy"
                                          width="150"
                                          height="100"

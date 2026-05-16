@@ -1,45 +1,44 @@
-﻿<title>{{ $title }} - Immobilier en Tunisie | Côte Magique</title>
+<title>{{ $title }} - Immobilier en Tunisie | IAF</title>
 
-<meta name="description" content="Découvrez {{ $title }} avec Côte Magique. Votre futur bien immobilier vous attend. Consultez nos annonces détaillées avec photos, prix et localisation. Trouvez votre {{ $title }} idéal.">
+<meta name="description" content="Découvrez {{ $title }} avec IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles. Consultez nos annonces avec photos, prix et localisation.">
 
-<meta name="keywords" content="{{ $title }} Tunisie, immobilier {{ $title }} Tunisie, {{ $title }} à vendre Tunisie, {{ $title }} à louer Tunisie, bien immobilier {{ $title }} Tunisie, agence immobilière {{ $title }} Tunisie, Côte Magique {{ $title }}">
+<meta name="keywords" content="{{ $title }} Tunisie, immobilier {{ $title }} Tunisie, {{ $title }} à vendre Tunisie, {{ $title }} à louer Tunisie, terrain agricole {{ $title }} Tunisie, agence immobilière Sfax, IAF {{ $title }}">
 
 <!-- Canonical URL -->
 <link href="{{ Request::url() }}" rel="canonical" />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:site_name" content="Côte Magique">
-<meta property="og:title" content="{{ $title }} - Côte Magique">
-<meta property="og:description" content="Découvrez {{ $title }} avec Côte Magique. Votre futur bien immobilier vous attend avec photos, prix et localisation détaillés.">
+<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères">
+<meta property="og:title" content="{{ $title }} - IAF">
+<meta property="og:description" content="Découvrez {{ $title }} avec IAF. Vente, achat et location de terrains agricoles avec photos, prix et localisation détaillés.">
 <meta property="og:url" content="{{ Request::url() }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ isset($property[0]->filename) ? $property[0]->filename : url('assets/img/logo/magic.png') }}">
+<meta property="og:image" content="{{ isset($property[0]->filename) ? $property[0]->filename : url('assets/img/logo/iaf.png') }}">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ $title }} - Côte Magique">
-<meta name="twitter:description" content="Découvrez {{ $title }} avec Côte Magique. Votre futur bien immobilier vous attend avec photos, prix et localisation détaillés.">
-<meta name="twitter:image" content="{{ isset($property[0]->filename) ? $property[0]->filename : url('assets/img/logo/magic.png') }}">
+<meta name="twitter:title" content="{{ $title }} - IAF">
+<meta name="twitter:description" content="Découvrez {{ $title }} avec IAF - Agence Immobilière Agrebi Frères. Terrains agricoles avec photos, prix et localisation.">
+<meta name="twitter:image" content="{{ isset($property[0]->filename) ? $property[0]->filename : url('assets/img/logo/iaf.png') }}">
 
 <!-- Property Structured Data -->
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "RealEstateListing",
-    "name": "Côte Magique",
-    "description": "Chez nous, chaque projet immobilier est avant tout une histoire humaine. Nous prenons le temps de comprendre vos besoins pour vous proposer des solutions adaptées.",
-    "url": "https://www.cotemagic.tn/",
-    "logo": "{{ asset('assets/img/logo/magic.png') }}",
-    "image": "{{ asset('assets/img/logo/magic.png') }}",
-    "streetAddress": "Tunisie",
-    "addressLocality": "Tunis",
-    "telephone": "+216-52996359",
+    "name": "IAF - Agence Immobilière Agrebi Frères",
+    "description": "Agence spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie.",
+    "url": "https://www.iaf-immo.tn/",
+    "logo": "{{ asset('assets/img/logo/iaf.png') }}",
+    "image": "{{ asset('assets/img/logo/iaf.png') }}",
+    "streetAddress": "Sfax",
+    "addressLocality": "Sfax",
+    "telephone": "+216-94303262",
     "sameAs": [
-        "https://www.facebook.com/share/14YuMzBhCeM/"
+        "https://www.facebook.com/share/1CVwX3rUev/"
     ]
 }
 </script>
-
 
 
 

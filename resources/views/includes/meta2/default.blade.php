@@ -1,6 +1,8 @@
-<meta name="description" content="Agence Accord Immobilier: Achat, Vente, Location et Gestion Locative de tout type de bien immobilier à Tunis. Notre équipe d'experts passionnés est là pour vous guider à chaque étape de votre projet immobilier.">
+    <meta name="description" content="Agence Immobilière Agrebi Frères - IAF. Spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie. Expertise et accompagnement à chaque étape de votre projet.">
+    
+    <meta name="keywords" content="agence immobilière Sfax, IAF, Agrebi Frères, terrains agricoles Tunisie, vente terrain agricole, location terrain agricole, achat terrain agricole, immobilier agricole">
 
-<meta name="keywords" content="agence immobilière Tunis, Deal Immobilier, vente immobilier Tunis, location immobilier Tunis, achat immobilier Tunis, Tunisie immobilier, terrains, fond de commerce, appartements">
-
-
-<title>Agence Accord Immobilier - Agence Immobilière à Tunis</title>
+    <meta property="og:url" content="https://www.iaf-immo.tn/" /> 
+    <title>IAF - Agence Immobilière Agrebi Frères | Terrains agricoles</title>
+    
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">

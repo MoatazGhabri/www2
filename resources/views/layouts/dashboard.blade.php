@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,17 +6,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Côte Magique - Administration Dashboard - Gestion des propriétés immobilières, annonces, utilisateurs et services">
-    <meta name="keywords" content="Côte Magique, administration, immobilier, Tunisie, gestion propriétés, annonces immobilières">
-    <meta name="author" content="Côte Magique">
+        <meta name="description" content="IAF - Administration Dashboard - Gestion des propriétés immobilières, annonces, utilisateurs et services">
+    <meta name="keywords" content="IAF, Agrebi Frères, administration, immobilier, Sfax, gestion propriétés, annonces immobilières">
+    <meta name="author" content="IAF - Agence Immobilière Agrebi Frères">
     <meta name="robots" content="noindex, nofollow">
     {{-- @csrf --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Côte Magique - @yield('pageTitle')</title>
+    <title>IAF - @yield('pageTitle')</title>
 
     <!-- favicon -->
-            <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/magic.png') }}">
+            <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
