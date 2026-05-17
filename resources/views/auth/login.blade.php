@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
 @section('pageTitle')
-    Connexion - RM Immobilier
+    Connexion - Luxiflore
 @endsection
 
 @section('content')
     <div class="modern-login-container">
         <div class="login-illustration">
             <div class="illustration-overlay">
-                <img src="{{ asset('assets/img/logo/rm.png') }}" alt="RM Immobilier" class="login-logo">
-                <h2>Bienvenue chez RM Immobilier</h2>
+                <img src="{{ asset('assets/img/logo/lf.png') }}" alt="Luxiflore" class="login-logo">
+                <h2>Bienvenue chez Luxiflore</h2>
                 <p>Connectez-vous pour accéder à votre espace personnel</p>
             </div>
         </div>

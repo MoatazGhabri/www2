@@ -19,7 +19,7 @@ Qui sommes nous
         <div class="col-lg-6">
             <div class="about-left">
                 <div class="about-img">
-                    <img src="{{ asset('assets/img/logo/rm.png')}}" alt="RM Immobilier">
+                    <img src="{{ asset('assets/img/logo/lf.png')}}" alt="Luxiflore">
                 </div>
             </div>
         </div>
@@ -29,28 +29,28 @@ Qui sommes nous
                     <span class="site-title-tagline">Qui sommes nous</span>
                 </div>
                 <div class="about-agency-section mt-4">
-                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">RM Immobilier</h4>
+                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">Luxiflore</h4>
                     <p class="about-text">
-                    RM Immobilier vous accompagne dans vos projets immobiliers à Nabeul et ses environs. Notre équipe met son expertise au service de vos ambitions : terrains, logements et partenariats durables.
+                    Avec Luxiflore, éclairez votre espace avec élégance naturelle. Nous proposons des bacs à fleurs et cache-pots en roche et pierre lumineuse pour sublimer votre décoration d'intérieur.
                     </p>
                     <div class="why-choose-us" style="margin-top: 1.5rem;">
-                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Nos services :</h5>
+                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Nos spécialités :</h5>
                         <ul style="list-style: none; padding-left: 0;">
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Vente de terrains lotis et viabilisés
+                                Bacs à fleurs en roche et pierre lumineuse
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Vente de maisons et logements finis ou personnalisés
+                                Cache-pots design et élégants
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Intermédiation immobilière sans frais
+                                Décoration d'intérieur
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Partenariat en projets de lotissement et de construction
+                                Élégance naturelle pour chaque espace
                             </li>
                         </ul>
                     </div>

@@ -3,8 +3,8 @@
     RewriteEngine On
 
     # Redirect non-www to www (or remove "www" if preferred)
-    RewriteCond %{HTTP_HOST} !^iaf-immo\.tn$ [NC]
-    RewriteRule ^(.*)$ https://iaf-immo.tn/$1 [R=301,L]
+    RewriteCond %{HTTP_HOST} !^luxiflore\.tn$ [NC]
+    RewriteRule ^(.*)$ https://luxiflore.tn/$1 [R=301,L]
     # Redirect Trailing Slashes If Not A Folder
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>RM Immobilier</title>
+    <title>Luxiflore</title>
    
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
@@ -20,50 +20,50 @@
     {
         "@context": "https://schema.org",
         "@type": "RealEstateAgent",
-                "name": "RM Immobilier",
-        "description": "Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.",
-        "url": "https://www.rm-immobilier.tn",
-            "logo": "{{ asset('assets/img/logo/rm.png') }}",
-            "image": "{{ asset('assets/img/logo/rm.png') }}",
+                "name": "Luxiflore",
+        "description": "Éclairez votre espace avec élégance naturelle. Bacs à fleurs et cache-pots en roche et pierre lumineuse. Décoration d'intérieur.",
+        "url": "https://www.luxiflore.tn",
+            "logo": "{{ asset('assets/img/logo/lf.png') }}",
+            "image": "{{ asset('assets/img/logo/lf.png') }}",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Rue Abdallah Farhat Dar Chabene 8075 Nabeul",
-            "addressLocality": "Nabeul",
-            "postalCode": "8075",
-            "addressRegion": "Nabeul",
+            "streetAddress": "Bizerte 7000 Tunisie",
+            "addressLocality": "Bizerte",
+            "postalCode": "7000",
+            "addressRegion": "Bizerte",
             "addressCountry": "TN"
         },
         "contactPoint": {
             "@type": "ContactPoint",
-                "telephone": "+216-27040938",
+                "telephone": "+216-52248420",
             "contactType": "customer service",
             "availableLanguage": ["French", "Arabic"]
         },
         "sameAs": [
-            "https://www.facebook.com/share/17XC9aMJzY/"
+            "https://www.facebook.com/share/18p8ZzANMm/"
         ],
         "areaServed": {
             "@type": "Country",
                 "name":  "Tunisie"
             },
-        "serviceType": "Terrains lotis, maisons, logements, intermédiation immobilière, lotissement et construction",
+        "serviceType": "Décoration d'intérieur, bacs à fleurs, cache-pots, roche et pierre lumineuse",
         "priceRange": "$$"
     }
     </script>
 
     <meta property="og:type" content="website">
-    <meta property="og:description" content="RM Immobilier à Nabeul. Terrains lotis, maisons et logements. Contactez-nous au (+216) 27 040 938">
-    <meta property="og:url" content="https://www.rm-immobilier.tn">
-    <meta property="og:image" content="{{ asset('assets/img/logo/rm.png') }}">
+    <meta property="og:description" content="Luxiflore - Décoration d'intérieur à Bizerte. Contactez-nous au (+216) 52 248 420">
+    <meta property="og:url" content="https://www.luxiflore.tn">
+    <meta property="og:image" content="{{ asset('assets/img/logo/lf.png') }}">
     
-            <meta name="description" content="RM Immobilier à Nabeul. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais.">
-        <meta name="keywords" content="agence immobilière Nabeul, RM Immobilier, terrains lotis, maisons, logements, intermédiation immobilière">
-    <meta name="contact" content="(+216) 27 040 938">
-    <meta name="email" content="rmimmobilier24@gmail.com">
-    <meta name="address" content="Rue Abdallah Farhat Dar Chabene 8075 Nabeul, Tunisie">
+            <meta name="description" content="Luxiflore - Éclairez votre espace avec élégance naturelle. Bacs à fleurs et cache-pots en roche et pierre lumineuse à Bizerte.">
+        <meta name="keywords" content="Luxiflore, décoration intérieur, bac à fleurs, cache pot, roche lumineuse, Bizerte">
+    <meta name="contact" content="(+216) 52 248 420">
+    <meta name="email" content="luxiflore@gmail.com">
+    <meta name="address" content="Bizerte 7000 Tunisie, Tunisie">
     
     <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/rm.png') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/lf.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

@@ -1,7 +1,7 @@
-<meta name="description" content="RM Immobilier à Nabeul. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais.">
-<meta name="keywords" content="site immobilier Tunisie, annonce immobilier Nabeul, terrains lotis, RM Immobilier, vente immobilière Tunisie">
-<meta property="og:site_name" content="RM Immobilier">
-<meta property="og:title" content="RM Immobilier | Terrains lotis et logements">
-<meta property="og:description" content="RM Immobilier - Vente de terrains lotis, maisons et logements à Nabeul.">
-<meta property="og:url" content="https://www.rm-immobilier.tn/">
-<title>RM Immobilier</title>
+<meta name="description" content="Luxiflore à Bizerte. Bacs à fleurs et cache-pots en roche et pierre lumineuse. Décoration d'intérieur avec élégance naturelle.">
+<meta name="keywords" content="Luxiflore, décoration intérieur Bizerte, bac à fleurs, cache pot, roche lumineuse">
+<meta property="og:site_name" content="Luxiflore">
+<meta property="og:title" content="Luxiflore | Décoration d'intérieur">
+<meta property="og:description" content="Luxiflore - Éclairez votre espace avec élégance naturelle à Bizerte.">
+<meta property="og:url" content="https://www.luxiflore.tn/">
+<title>Luxiflore</title>

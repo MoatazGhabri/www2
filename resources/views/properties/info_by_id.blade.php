@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('meta')
     <!-- Enhanced Meta tags for SEO -->
-        <meta name="description" content="RM Immobilier, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.">
-            <meta name="keywords" content="immobilier Nabeul, agence immobilière Nabeul, terrains lotis, vente terrain agricole, location terrain agricole, RM Immobilier, RM Immobilier, immobilier agricole Tunisie">
-        <meta name="author" content="RM Immobilier">
-    <meta name="contact" content="+216-27040938">
-    <meta name="email" content="contact@rm-immobilier.tn">
+        <meta name="description" content="Luxiflore, votre agence immobilière en Tunisie. Achat, location ou vente de biens immobiliers.">
+            <meta name="keywords" content="Luxiflore, décoration intérieur Bizerte, bac à fleurs, cache pot, roche lumineuse, pierre lumineuse">
+        <meta name="author" content="Luxiflore">
+    <meta name="contact" content="+216-52248420">
+    <meta name="email" content="contact@luxiflore.tn">
     <meta name="address" content="70 Rue Ibn Khaldoun, Riadh Andalous, Ariana">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
@@ -14,21 +14,21 @@
     <link rel="canonical" href="{{ url()->current() }}">
     
     <!-- Enhanced Open Graph meta tags -->
-    <meta property="og:url" content="https://rm-immobilier.tn">
-    <meta property="og:title" content="RM Immobilier - Votre partenaire immobilier de confiance en Tunisie">
+    <meta property="og:url" content="https://luxiflore.tn">
+    <meta property="og:title" content="Luxiflore - Votre partenaire immobilier de confiance en Tunisie">
     <meta property="og:description" content="Découvrez notre sélection de biens immobiliers à Ariana et ses environs : Appartements, villas, maisons, terrains, bureaux et locaux commerciaux.">
-    <meta property="og:image" content="{{ asset('assets/img/logo/rm.png') }}">
-    <meta property="og:image:alt" content="{{ $property->title ?? 'RM Immobilier' }}">
+    <meta property="og:image" content="{{ asset('assets/img/logo/lf.png') }}">
+    <meta property="og:image:alt" content="{{ $property->title ?? 'Luxiflore' }}">
     <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="RM Immobilier">
+        <meta property="og:site_name" content="Luxiflore">
     <meta property="og:locale" content="fr_FR">
     
     <!-- Twitter Card meta tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RM Immobilier - Votre partenaire immobilier de confiance">
+    <meta name="twitter:title" content="Luxiflore - Votre partenaire immobilier de confiance">
     <meta name="twitter:description" content="Découvrez notre sélection de biens immobiliers à Ariana et ses environs : Appartements, villas, maisons, terrains, bureaux et locaux commerciaux.">
-    <meta name="twitter:image" content="{{ asset('assets/img/logo/rm.png') }}">
-        <meta name="twitter:image:alt" content="{{ $property->title ?? 'RM Immobilier' }}">
+    <meta name="twitter:image" content="{{ asset('assets/img/logo/lf.png') }}">
+        <meta name="twitter:image:alt" content="{{ $property->title ?? 'Luxiflore' }}">
     
     <!-- Additional SEO meta tags -->
     <meta name="geo.region" content="TN-12">
@@ -37,7 +37,7 @@
     <meta name="ICBM" content="36.8625, 10.1956">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/rm.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/lf.png') }}">
     
     <!-- JSON-LD Structured Data for Property -->
     <script type="application/ld+json">
@@ -45,7 +45,7 @@
         "@context": "https://schema.org",
         "@type": "RealEstateListing",
         "name": "{{ $property->title ?? 'Propriété immobilière' }}",
-        "description": "{{ $property->description ?? 'Découvrez ce bien immobilier exceptionnel en Tunisie avec RM Immobilier.' }}",
+        "description": "{{ $property->description ?? 'Découvrez ce bien immobilier exceptionnel en Tunisie avec Luxiflore.' }}",
         "url": "{{ url()->current() }}",
         "image": [
             @if($property && $property->pictures && $property->pictures->count() > 0)
@@ -53,7 +53,7 @@
                     "{{ asset('uploads/property_photo/' . $picture->alt) }}"{{ $index < min(4, $property->pictures->count() - 1) ? ',' : '' }}
                 @endforeach
             @else
-                "{{ asset('assets/img/logo/rm.png') }}"
+                "{{ asset('assets/img/logo/lf.png') }}"
             @endif
         ],
         "offers": {
@@ -83,19 +83,19 @@
         "numberOfRooms": "{{ $property->rooms ?? 'Non spécifié' }}",
         "provider": {
             "@type": "RealEstateAgent",
-            "name": "RM Immobilier",
-            "url": "https://rm-immobilier.tn",
-                "logo": "{{ asset('assets/img/logo/rm.png') }}",
+            "name": "Luxiflore",
+            "url": "https://luxiflore.tn",
+                "logo": "{{ asset('assets/img/logo/lf.png') }}",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "70 Rue Ibn Khaldoun, Riadh Andalous",
                 "addressLocality": "Ariana",
                 "addressCountry": "TN",
-                "telephone": "+216-27040938"
+                "telephone": "+216-52248420"
             },
             "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+216-27040938",
+                "telephone": "+216-52248420",
                 "contactType": "customer service",
                 "availableLanguage": ["French", "Arabic"]
             }
@@ -145,7 +145,7 @@
 
     <style>
         :root {
-            --color: #b48437;
+            --color: #055408;
         }
     .section-title-centered,
     .section-title,
@@ -1255,7 +1255,7 @@
                                 @endphp
                                 <div class="thumbnail {{ $index === 0 ? 'active' : '' }}" onclick="setActiveImage({{ $index }})" style="position: relative; cursor: pointer;">
                                     <img src="{{ $thumbSrc }}" 
-                                         alt="{{ $property->title }} - {{ $property->type ?? 'Bien immobilier' }} à {{ $property->city ?? 'Tunis' }} - Image {{ $index + 1 }} - RM Immobilier - Agence Immobilière RM Immobilier"
+                                         alt="{{ $property->title }} - {{ $property->type ?? 'Bien immobilier' }} à {{ $property->city ?? 'Tunis' }} - Image {{ $index + 1 }} - Luxiflore - Agence Immobilière Luxiflore"
                                          loading="lazy"
                                          width="150"
                                          height="100"

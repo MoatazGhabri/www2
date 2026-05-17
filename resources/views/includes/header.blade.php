@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RM Immobilier à Nabeul. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais.">
-    <meta name="keywords" content="RM Immobilier, agence immobilière Nabeul, terrains lotis, maisons, logements, intermédiation immobilière, lotissement, construction">
-    <meta name="author" content="RM Immobilier">
+    <meta name="description" content="Luxiflore - Éclairez votre espace avec élégance naturelle. Bacs à fleurs et cache-pots en roche et pierre lumineuse. Décoration d'intérieur à Bizerte.">
+    <meta name="keywords" content="Luxiflore, décoration intérieur, bac à fleurs, cache pot, roche lumineuse, pierre lumineuse, Bizerte">
+    <meta name="author" content="Luxiflore">
     <meta name="robots" content="index, follow">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/rm.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/lf.png') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.rm-immobilier.tn">
-    <meta property="og:title" content="RM Immobilier | Terrains lotis et logements à Nabeul">
-    <meta property="og:description" content="Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.">
-    <meta property="og:image" content="{{ asset('assets/img/logo/rm.png') }}">
+    <meta property="og:url" content="https://www.luxiflore.tn">
+    <meta property="og:title" content="Luxiflore | Décoration d'intérieur - Bizerte">
+    <meta property="og:description" content="Bacs à fleurs et cache-pots en roche et pierre lumineuse. Élégance naturelle pour votre intérieur à Bizerte.">
+    <meta property="og:image" content="{{ asset('assets/img/logo/lf.png') }}">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.rm-immobilier.tn">
-    <meta property="twitter:title" content="RM Immobilier">
-    <meta property="twitter:description" content="Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.">
-    <meta property="twitter:image" content="{{ asset('assets/img/logo/rm.png') }}">
+    <meta property="twitter:url" content="https://www.luxiflore.tn">
+    <meta property="twitter:title" content="Luxiflore">
+    <meta property="twitter:description" content="Bacs à fleurs et cache-pots en roche et pierre lumineuse. Décoration d'intérieur à Bizerte.">
+    <meta property="twitter:image" content="{{ asset('assets/img/logo/lf.png') }}">
     
-    <title>RM Immobilier</title>
+    <title>Luxiflore</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
        :root {
-        --color-main: #b48437;
-        --color-accent: #b48437;
+        --color-main: #055408;
+        --color-accent: #055408;
        }
         .header-accent-bar {
             width: 100%;
@@ -728,7 +728,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container custom-nav">
                     <a class="navbar-brand" href="/">
-                   <img src="{{ asset('assets/img/logo/rm.png') }}" alt="RM Immobilier" style="width: 100px;">
+                   <img src="{{ asset('assets/img/logo/lf.png') }}" alt="Luxiflore" style="width: 100px;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-btn-icon"><i class="fas fa-bars"></i></span>
@@ -744,8 +744,8 @@
 
 
                                 <div class="header-nav-contact-info">
-                                        <span style="color: var(--color-main); font-weight: 600; font-size: 1rem;"><i class="fas fa-envelope" style="color: var(--color-main);"></i>  rmimmobilier24@gmail.com</span>
-                                    <span style="color: var(--color-main); font-weight: 600; font-size: 1rem;"><i class="fab fa-whatsapp" style="color: var(--color-main);"></i>  +216 27 040 938</span>  
+                                        <span style="color: var(--color-main); font-weight: 600; font-size: 1rem;"><i class="fas fa-envelope" style="color: var(--color-main);"></i>  luxiflore@gmail.com</span>
+                                    <span style="color: var(--color-main); font-weight: 600; font-size: 1rem;"><i class="fab fa-whatsapp" style="color: var(--color-main);"></i>  +216 52 248 420</span>  
                                     
                                 </div>
                                 <a href="{{ route('login') }}" class="header-account-link header-login-topright"><i class="fas fa-user-circle"></i> Se Connecter</a>

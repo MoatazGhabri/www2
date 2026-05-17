@@ -1,14 +1,14 @@
-<title>RM Immobilier - Annonces Services Divers</title>
+<title>Luxiflore - Annonces Services Divers</title>
 
 
-<meta name="description" content="RM Immobilier - Annonces, ventes diverses et services en Tunisie. Promouvoir votre société et entreprise. Cherche professionnel.">
+<meta name="description" content="Luxiflore - Annonces et services en Tunisie. Décoration d'intérieur, bacs à fleurs et cache-pots en roche et pierre lumineuse.">
 
-<meta name="keywords" content="cherche professionnel Tunisie, cherche entreprise Tunisie, RM Immobilier, annonces professionnels Tunisie, Nabeul">
+<meta name="keywords" content="Luxiflore, annonces services Tunisie, décoration intérieur, Bizerte">
 
 
-<meta property="og:site_name" content="RM Immobilier">
-<meta property="og:url" content="https://www.rm-immobilier.tn">
+<meta property="og:site_name" content="Luxiflore">
+<meta property="og:url" content="https://www.luxiflore.tn">
 
-<meta property="og:title" content="RM Immobilier | Annonces Services Divers">
+<meta property="og:title" content="Luxiflore | Annonces Services Divers">
 
-<meta property="og:image" content="{{asset('assets/img/logo/rm.png')}}">
+<meta property="og:image" content="{{asset('assets/img/logo/lf.png')}}">

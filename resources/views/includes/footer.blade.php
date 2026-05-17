@@ -6,13 +6,13 @@
                     <div class="footer-column">
                         <div class="footer-logo-box">
                             <a href="#" class="footer-logo">
-                                        <img src="{{ asset('assets/img/logo/rm.png') }}" alt="RM Immobilier">
+                                        <img src="{{ asset('assets/img/logo/lf.png') }}" alt="Luxiflore">
                             </a>
                             <p class="footer-about">
-                            RM Immobilier. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.
+                            Avec Luxiflore, éclairez votre espace avec élégance naturelle. Bacs à fleurs et cache-pots en roche et pierre lumineuse. Décoration d'intérieur à Bizerte.
                             </p>
                             <div class="footer-social-icons">
-                                <a href="https://www.facebook.com/share/17XC9aMJzY/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/share/18p8ZzANMm/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@
                     <div class="footer-column">
                         <h4 class="footer-title">Contactez-nous <i class="fas fa-address-book"></i></h4>
                         <ul class="footer-contact-info">
-                            <li><a href="tel:+21627040938"><i class="fas fa-phone"></i> +216 27 040 938</a></li>
-                            <li><a href="https://wa.me/21627040938" target="_blank"><i class="fab fa-whatsapp"></i> +216 27 040 938</a></li>
-                            <li><i class="fas fa-map-marker-alt"></i> Rue Abdallah Farhat Dar Chabene 8075 Nabeul</li>
-                            <li><a href="mailto:rmimmobilier24@gmail.com"><i class="fas fa-envelope-open-text"></i> rmimmobilier24@gmail.com</a></li>
+                            <li><a href="tel:+21652248420"><i class="fas fa-phone"></i> +216 52 248 420</a></li>
+                            <li><a href="https://wa.me/21652248420" target="_blank"><i class="fab fa-whatsapp"></i> +216 52 248 420</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i> Bizerte 7000 Tunisie</li>
+                            <li><a href="mailto:luxiflore@gmail.com"><i class="fas fa-envelope-open-text"></i> luxiflore@gmail.com</a></li>
                         </ul>                   
                     </div>
                 </div>
@@ -83,8 +83,8 @@
         overflow: hidden;
     }
     :root {
-        --color-main: #b48437;
-        --color-accent: #b48437;
+        --color-main: #055408;
+        --color-accent: #055408;
     }
     .modern-footer::before {
         content: '';
