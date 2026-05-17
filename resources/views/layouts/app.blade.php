@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>IAF - Agence Immobilière Agrebi Frères</title>
+    <title>RM Immobilier</title>
    
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
@@ -20,50 +20,50 @@
     {
         "@context": "https://schema.org",
         "@type": "RealEstateAgent",
-                "name": "IAF - Agence Immobilière Agrebi Frères",
-        "description": "Agence spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie.",
-        "url": "https://www.iaf-immo.tn",
-            "logo": "{{ asset('assets/img/logo/iaf.png') }}",
-            "image": "{{ asset('assets/img/logo/iaf.png') }}",
+                "name": "RM Immobilier",
+        "description": "Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.",
+        "url": "https://www.rm-immobilier.tn",
+            "logo": "{{ asset('assets/img/logo/rm.png') }}",
+            "image": "{{ asset('assets/img/logo/rm.png') }}",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Sfax",
-            "addressLocality": "Sfax",
-            "postalCode": "",
-            "addressRegion": "Sfax",
+            "streetAddress": "Rue Abdallah Farhat Dar Chabene 8075 Nabeul",
+            "addressLocality": "Nabeul",
+            "postalCode": "8075",
+            "addressRegion": "Nabeul",
             "addressCountry": "TN"
         },
         "contactPoint": {
             "@type": "ContactPoint",
-                "telephone": "+216-94303262",
+                "telephone": "+216-27040938",
             "contactType": "customer service",
             "availableLanguage": ["French", "Arabic"]
         },
         "sameAs": [
-            "https://www.facebook.com/share/1CVwX3rUev/"
+            "https://www.facebook.com/share/17XC9aMJzY/"
         ],
         "areaServed": {
             "@type": "Country",
                 "name":  "Tunisie"
             },
-        "serviceType": "Immobilier agricole - Vente, Location, Achat de terrains agricoles",
+        "serviceType": "Terrains lotis, maisons, logements, intermédiation immobilière, lotissement et construction",
         "priceRange": "$$"
     }
     </script>
 
     <meta property="og:type" content="website">
-    <meta property="og:description" content="IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles en Tunisie. Contactez-nous au (+216) 94 303 262">
-    <meta property="og:url" content="https://www.iaf-immo.tn">
-    <meta property="og:image" content="{{ asset('assets/img/logo/iaf.png') }}">
+    <meta property="og:description" content="RM Immobilier à Nabeul. Terrains lotis, maisons et logements. Contactez-nous au (+216) 27 040 938">
+    <meta property="og:url" content="https://www.rm-immobilier.tn">
+    <meta property="og:image" content="{{ asset('assets/img/logo/rm.png') }}">
     
-            <meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Vente, achat et location de terrains agricoles en Tunisie.">
-        <meta name="keywords" content="agence immobilière Sfax, IAF, Agrebi Frères, terrains agricoles, vente terrain agricole, location terrain agricole, immobilier agricole Tunisie">
-    <meta name="contact" content="(+216) 94 303 262">
-    <meta name="email" content="kamel.twitc@gmail.com">
-    <meta name="address" content="Sfax, Tunisie">
+            <meta name="description" content="RM Immobilier à Nabeul. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais.">
+        <meta name="keywords" content="agence immobilière Nabeul, RM Immobilier, terrains lotis, maisons, logements, intermédiation immobilière">
+    <meta name="contact" content="(+216) 27 040 938">
+    <meta name="email" content="rmimmobilier24@gmail.com">
+    <meta name="address" content="Rue Abdallah Farhat Dar Chabene 8075 Nabeul, Tunisie">
     
     <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/rm.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

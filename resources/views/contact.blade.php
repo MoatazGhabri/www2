@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('pageTitle', "Contactez IAF")
+@section('pageTitle', "Contactez RM Immobilier")
 @section('content')
 
 <div class="contact-section">
@@ -14,7 +14,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Siège Social</h3>
-                                <p>Sfax, Tunisie</p>
+                                <p>Rue Abdallah Farhat Dar Chabene 8075 Nabeul</p>
                         </div>  
                     </div>
                     
@@ -24,7 +24,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Téléphone</h3>
-                            <p>+216 94 303 262</p>
+                            <p>+216 27 040 938</p>
 
                         </div>
                       
@@ -36,7 +36,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Email</h3>
-                            <p>kamel.twitc@gmail.com</p>
+                            <p>rmimmobilier24@gmail.com</p>
                         </div>
                     </div>
                     
@@ -56,7 +56,7 @@
             
             <!-- Contact Form Side -->
             <div class="contact-form-side">
-                <h2 class="contact-heading">Contactez IAF - Agence Immobilière Agrebi Frères</h2>
+                <h2 class="contact-heading">Contactez RM Immobilier</h2>
                 <form method="post" action="#" id="contact-form">
                     <div class="form-row">
                         <div class="form-group">

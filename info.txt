@@ -1,18 +1,14 @@
-bio: 
-Agence Immobilière Agrebi Frères -IAF- est une agence spécialisée dans l’intermédiation immobilière, facilitant et gérant les opérations de vente, d’achat et de location de terrains agricoles de tout type.
-Grâce à son expertise et à sa parfaite connaissance du marché, IAF vous accompagne et vous conseille à chaque étape de votre projet.
-Pourquoi choisir IAF ?
-Compétence : une expertise dédiée au secteur immobilier.
-Confiance : un accompagnement sérieux et professionnel.
-Transparence : des démarches claires et un suivi en toute honnêteté.
-Mail 
-kamel.twitc@gmail.com
-Adresse 
-Sfax
-Watsapp 
-94303262
+Bio: 
+Vente de terrains lotis et viabilisés
+Vente de maisons et logements finis ou personnalisés
+Intermédiation immobilière sans frais
+Partenariat en projets de lotissement et de construction
+https://www.facebook.com/share/17XC9aMJzY/
 Page Facebook 
-https://www.facebook.com/share/1CVwX3rUev/
-site : Iaf-immo.tn
-color: #759f17
-logo / favicon : iaf.png
+Rue Abdallah Farhat Dar Chabene 8075 Nabeul
+tel : 27040938
+Mail 
+rmimmobilier24@gmail.com
+site : www.rm-immobilier.tn
+color: #b48437
+logo / favicon : rm.png

@@ -10,7 +10,7 @@
     <meta name="keywords" content="">
 
     <!-- title -->
-    <title>IAF - Agence Immobilière Agrebi Frères</title>
+    <title>RM Immobilier</title>
 
     <!-- favicon -->
             <link rel="icon" type="image/x-icon" href="assets/img/logo/deal.png">

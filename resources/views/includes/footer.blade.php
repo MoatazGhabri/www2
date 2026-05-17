@@ -6,13 +6,13 @@
                     <div class="footer-column">
                         <div class="footer-logo-box">
                             <a href="#" class="footer-logo">
-                                        <img src="{{ asset('assets/img/logo/iaf.png') }}" alt="IAF - Agence Immobilière Agrebi Frères">
+                                        <img src="{{ asset('assets/img/logo/rm.png') }}" alt="RM Immobilier">
                             </a>
                             <p class="footer-about">
-                            Agence Immobilière Agrebi Frères - IAF. Spécialisée en intermédiation immobilière : vente, achat et location de terrains agricoles en Tunisie.
+                            RM Immobilier. Vente de terrains lotis et viabilisés, maisons et logements, intermédiation immobilière sans frais à Nabeul.
                             </p>
                             <div class="footer-social-icons">
-                                <a href="https://www.facebook.com/share/1CVwX3rUev/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/share/17XC9aMJzY/" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@
                     <div class="footer-column">
                         <h4 class="footer-title">Contactez-nous <i class="fas fa-address-book"></i></h4>
                         <ul class="footer-contact-info">
-                            <li><a href="tel:+21694303262"><i class="fas fa-phone"></i> +216 94 303 262</a></li>
-                            <li><a href="https://wa.me/21694303262" target="_blank"><i class="fab fa-whatsapp"></i> +216 94 303 262</a></li>
-                            <li><i class="fas fa-map-marker-alt"></i> Sfax</li>
-                            <li><a href="mailto:kamel.twitc@gmail.com"><i class="fas fa-envelope-open-text"></i> kamel.twitc@gmail.com</a></li>
+                            <li><a href="tel:+21627040938"><i class="fas fa-phone"></i> +216 27 040 938</a></li>
+                            <li><a href="https://wa.me/21627040938" target="_blank"><i class="fab fa-whatsapp"></i> +216 27 040 938</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i> Rue Abdallah Farhat Dar Chabene 8075 Nabeul</li>
+                            <li><a href="mailto:rmimmobilier24@gmail.com"><i class="fas fa-envelope-open-text"></i> rmimmobilier24@gmail.com</a></li>
                         </ul>                   
                     </div>
                 </div>
@@ -83,8 +83,8 @@
         overflow: hidden;
     }
     :root {
-        --color-main: #759f17;
-        --color-accent: #759f17;
+        --color-main: #b48437;
+        --color-accent: #b48437;
     }
     .modern-footer::before {
         content: '';

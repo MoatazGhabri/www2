@@ -19,7 +19,7 @@ Qui sommes nous
         <div class="col-lg-6">
             <div class="about-left">
                 <div class="about-img">
-                    <img src="{{ asset('assets/img/logo/iaf.png')}}" alt="IAF - Agence Immobilière Agrebi Frères">
+                    <img src="{{ asset('assets/img/logo/rm.png')}}" alt="RM Immobilier">
                 </div>
             </div>
         </div>
@@ -29,24 +29,28 @@ Qui sommes nous
                     <span class="site-title-tagline">Qui sommes nous</span>
                 </div>
                 <div class="about-agency-section mt-4">
-                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">Agence Immobilière Agrebi Frères - IAF</h4>
+                    <h4 style="color: var(--color-main); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">RM Immobilier</h4>
                     <p class="about-text">
-                    Agence Immobilière Agrebi Frères -IAF- est une agence spécialisée dans l'intermédiation immobilière, facilitant et gérant les opérations de vente, d'achat et de location de terrains agricoles de tout type. Grâce à son expertise et à sa parfaite connaissance du marché, IAF vous accompagne et vous conseille à chaque étape de votre projet.
+                    RM Immobilier vous accompagne dans vos projets immobiliers à Nabeul et ses environs. Notre équipe met son expertise au service de vos ambitions : terrains, logements et partenariats durables.
                     </p>
                     <div class="why-choose-us" style="margin-top: 1.5rem;">
-                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Pourquoi choisir IAF :</h5>
+                        <h5 style="color: var(--color-main); font-size: 1.2rem; margin-bottom: 1rem;">Nos services :</h5>
                         <ul style="list-style: none; padding-left: 0;">
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Compétence : une expertise dédiée au secteur immobilier
+                                Vente de terrains lotis et viabilisés
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Confiance : un accompagnement sérieux et professionnel
+                                Vente de maisons et logements finis ou personnalisés
                             </li>
                             <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
                                 <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
-                                Transparence : des démarches claires et un suivi en toute honnêteté
+                                Intermédiation immobilière sans frais
+                            </li>
+                            <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem;">
+                                <span style="position: absolute; left: 0; color: var(--color-main); font-weight: bold;">✓</span>
+                                Partenariat en projets de lotissement et de construction
                             </li>
                         </ul>
                     </div>

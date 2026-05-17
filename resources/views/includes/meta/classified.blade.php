@@ -1,17 +1,17 @@
-<title>IAF - Annonces Ventes Diverses</title>
+<title>RM Immobilier - Annonces Ventes Diverses</title>
 
 
-<meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Annonces, ventes diverses et services en Tunisie. Promouvoir votre société et entreprise. Cherche professionnel.">
+<meta name="description" content="RM Immobilier - Annonces, ventes diverses et services en Tunisie. Promouvoir votre société et entreprise. Cherche professionnel.">
 
-<meta name="keywords" content="cherche professionnel Tunisie, cherche entreprise Tunisie, cherche services Tunisie, annuaire des services Tunisie, annuaire des entreprises Tunisie, annonces professionnels Tunisie, IAF, Agrebi Frères">
+<meta name="keywords" content="cherche professionnel Tunisie, cherche entreprise Tunisie, RM Immobilier, annonces professionnels Tunisie, Nabeul">
 
 
-<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères">
-<meta property="og:url" content="https://www.iaf-immo.tn">
+<meta property="og:site_name" content="RM Immobilier">
+<meta property="og:url" content="https://www.rm-immobilier.tn">
 
-<meta property="og:title" content="IAF | Annonces Ventes Divers">
+<meta property="og:title" content="RM Immobilier | Annonces Ventes Divers">
 
-<meta property="og:image" content="{{asset('assets/img/logo/iaf.png')}}">
+<meta property="og:image" content="{{asset('assets/img/logo/rm.png')}}">
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">

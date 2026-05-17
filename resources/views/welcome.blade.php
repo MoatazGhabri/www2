@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="IAF - Agence Immobilière Agrebi Frères. Spécialisée en vente, achat et location de terrains agricoles en Tunisie.">
+    <meta name="description" content="RM Immobilier. Spécialisée en vente, achat et location de terrains lotis et logements en Tunisie.">
 
 
-    <meta name="keywords" content="IAF, Agrebi Frères, agence immobilière Sfax, terrains agricoles, vente terrain agricole, location terrain agricole, immobilier agricole Tunisie">
-<link href="https://www.iaf-immo.tn" rel="canonical" />    
-<meta property="og:url" content="https://www.iaf-immo.tn" />
-    <title>IAF - Agence Immobilière Agrebi Frères</title>
+    <meta name="keywords" content="RM Immobilier, agence immobilière Nabeul, terrains lotis, maisons, logements, intermédiation immobilière, lotissement">
+<link href="https://www.rm-immobilier.tn" rel="canonical" />    
+<meta property="og:url" content="https://www.rm-immobilier.tn" />
+    <title>RM Immobilier</title>
 
 
 
-<meta property="og:title" content="IAF - Votre partenaire immobilier agricole de confiance" />
+<meta property="og:title" content="RM Immobilier - Votre partenaire immobilier à Nabeul" />
 
-    <meta property="og:description" content="Vente, achat et location de terrains agricoles en Tunisie. Contactez-nous au (+216) 94 303 262">
+    <meta property="og:description" content="Vente, achat et location de terrains lotis et logements en Tunisie. Contactez-nous au (+216) 27 040 938">
    
-<meta property="og:site_name" content="IAF - Agence Immobilière Agrebi Frères" />
+<meta property="og:site_name" content="RM Immobilier" />
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ asset('assets/img/logo/iaf.png') }}">
+<meta property="og:image" content="{{ asset('assets/img/logo/rm.png') }}">
  <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/iaf.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/rm.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -60,8 +60,8 @@
 </head>
 <style>
     :root {
-        --color-main:  #759f17;
-        --color-accent: #759f17;
+        --color-main:  #b48437;
+        --color-accent: #b48437;
     }
     .outline-view-all-btn {
     display: block;

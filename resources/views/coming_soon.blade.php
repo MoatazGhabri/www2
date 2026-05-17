@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-            <title>IAF - Agence Immobilière Agrebi Frères - @yield('pageTitle')</title>
+            <title>RM Immobilier - @yield('pageTitle')</title>
 
     <!-- favicon -->
             <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/mplus.png') }}">
